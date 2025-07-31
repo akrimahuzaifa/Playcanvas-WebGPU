@@ -74,5 +74,5 @@ This project explores switching PlayCanvas from WebGL2 to WebGPU for rendering.
 ---
 
 ## References to forum i already explored and tested
-- [PlayCanvas WebGPU PR](https://github.com/playcanvas/engine/pull/4302)
-- [WebGPU Chrome Status](https://developer.chrome.com/docs/web-platform/webgpu/)
+- [PlayCanvas WebGPU](https://forum.playcanvas.com/t/how-can-i-use-webgpu-in-playcanvas/32656/5)
+- [Renderer settings in engine-only project?](https://forum.playcanvas.com/t/solved-renderer-settings-in-engine-only-project/32245)
