@@ -2,6 +2,14 @@
 
 This project explores switching PlayCanvas from WebGL2 to WebGPU for rendering.
 
+# Status
+
+**WebGPU is now working!**  
+The project successfully initializes PlayCanvas with WebGPU as the graphics backend.
+
+---
+
+
 ## What Has Been Tried
 
 ### 1. Hardware & Environment
