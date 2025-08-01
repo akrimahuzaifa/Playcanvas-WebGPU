@@ -24,13 +24,7 @@ app.start();
 
 //----Environment code here (Camera and lights)----
 
-// log the graphics device type and WebGPU support
-console.log("Graphics Device Type:", app.graphicsDevice.deviceType);
-if ("gpu" in navigator) {
-  console.log("WebGPU is supported in this browser.");
-} else {
-  console.log("WebGPU is NOT supported in this browser.");
-}
+
 
 // create a camera
 const camera = new pc.Entity();
@@ -56,4 +50,10 @@ app.root.addChild(box);
 // rotate the box
 app.on("update", (dt: number) => box.rotate(10 * dt, 20 * dt, 30 * dt));
 
-
+// log the graphics device type and WebGPU support
+console.log("Graphics Device Type:", app.graphicsDevice.deviceType);
+if ("gpu" in navigator) {
+  console.log("WebGPU is supported in this browser.");
+} else {
+  console.log("WebGPU is NOT supported in this browser.");
+}
